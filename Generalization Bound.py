@@ -11,6 +11,6 @@ m = 500 #number of functions in a class
 n = 50000 #number of sample data points
 d = 0.05 #chance for error to occur
 
-e = ((math.log(2*m) + math.log(1/d))/(2*n))**(1/2) #difference between true risk R(f) and sample risk Rn(f)
+e = ((math.log(2*m) + math.log(1/d))/(2*n))**(1/2) #difference between true risk R(f) and empirical risk Rn(f)
 
 print(e)
